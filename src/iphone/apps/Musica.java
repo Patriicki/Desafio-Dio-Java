@@ -1,8 +1,8 @@
 package iphone.apps;
 
-public interface Ipod {
+public interface Musica {
     public void tocar();
     public void pausar();
     public void selecionarMusica();
-    public void comandosIpod();
+    public void comandosMusica();
 }

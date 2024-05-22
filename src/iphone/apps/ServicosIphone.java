@@ -1,6 +1,6 @@
 package iphone.apps;
 
-public class ServicosIphone implements Ipod, Navegador, Telefone{
+public class ServicosIphone implements Musica, Navegador, Telefone{
 
     // operacoes que podem ser feita dentro do telefone
     public void comandosTelefonico() {
@@ -23,8 +23,8 @@ public class ServicosIphone implements Ipod, Navegador, Telefone{
     }
 
     // operacoes que podem ser feita dentro do ipod
-    public void comandosIpod() {
-        System.out.println("VOCÊ ABRIU O IPAD, O QUE DESEJA FAZER? ");
+    public void comandosMusica() {
+        System.out.println("VOCÊ ABRIU O APP DE MÚSICA, O QUE DESEJA FAZER? ");
         System.out.println("OPÇÃO 1: TOCAR MÚSICA");
         System.out.println("OPÇÃO 2: PAUSAR MÚSICA");
         System.out.println("OPÇÃO 3: SELECIONAR MÚSICA");

@@ -12,7 +12,7 @@ public class Iphone {
         do {
             System.out.println("ESCOLHA QUAL APP QUE DESEJA ACESSAR: ");
             System.out.println("OPÇÃO 1: APARELHO TELEFÔNICO ");
-            System.out.println("OPÇÃO 2: REPRODUTOR MUSICAL (IPAD)");
+            System.out.println("OPÇÃO 2: REPRODUTOR MUSICAL ");
             System.out.println("OPÇÃO 3: NAVEGADOR INTERNET");
             System.out.println("OPÇÃO 0: DESLIGAR");
             opcao = sc.nextInt();
@@ -37,7 +37,7 @@ public class Iphone {
                     break;
                 }
                 case 2 :{
-                    si.comandosIpod();
+                    si.comandosMusica();
                     comandos = sc.nextInt();
                     if (comandos == 1) {
                         si.tocar();
